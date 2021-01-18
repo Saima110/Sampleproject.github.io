@@ -15,5 +15,57 @@
 <body>
 
 
+  <form>
+
+    <!-- Task Name Input -->
+    <div class="form-group">
+      <label for="formGroupTaskName">Task Name</label>
+      <input type="text" class="form-control" id="formGroupTaskName" placeholder="Name of Task">
+    </div>
+
+    <!-- Task Description Input -->
+    <div class="form-group">
+      <label for="formGroupDescription">Description</label>
+      <input type="text" class="form-control" id="formGroupDescription" placeholder="Description of task">
+    </div>
+
+    <!-- Assigned To Input DropDown List -->
+      <div class="form-group col-md-4">
+      <label for="inputAssigned">Assigned To</label>
+      <select id="inputAssigned" class="form-control">
+        <option selected>Choose...</option>
+        <option>Amr</option>
+        <option>Anya</option>
+        <option>Fran</option>
+        <option>Saima</option>
+      </select>
+    </div>
+    
+    <!-- Date Input -->
+    <div class="form-group"> 
+      <label class="control-label" for="date">Due Date</label>
+      <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text"/>
+    </div>
+    
+    <!-- Task Status Input DropDown List -->
+    <div class="form-group col-md-4">
+      <label for="inputStatus">Status</label>
+      <select id="inputStatus" class="form-control">
+        <option selected>Choose...</option>
+        <option>Not started</option>
+        <option>In progress</option>
+        <option>Completed</option>
+    </select>
+    </div> 
+
+    <!-- Submit button -->
+    <div class="form-group"> 
+      <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+    </div>
+
+  </form>
+
+
+
 </body>
 </html>
