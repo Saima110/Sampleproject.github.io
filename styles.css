@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container-fluid {
     margin-bottom: 60px;
 }
@@ -19,8 +19,7 @@
 .labelAssigned,
 .control-label,
 .labelStatus {
- 
-    font-size: medium;
+     font-size: medium;
 }
 
 
@@ -40,5 +39,3 @@
     margin-top: 25px;
     
 }
-=======
->>>>>>> f36ba1bdc9fcc8fbf83430822f748ca601b8349f
